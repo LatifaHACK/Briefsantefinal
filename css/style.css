@@ -1,0 +1,143 @@
+*{
+    list-style: none;
+   text-decoration: none;
+   }
+ html {
+     font-family:  'Changa';
+   }
+ .nav{
+     height: 100%;
+     float: right;
+     }
+ body{
+     margin: 0%;
+     padding: 0%;
+     text-align: center;
+     }
+
+@media screen and (min-width: 420px){ 
+nav li{
+     display: table;
+     height: 100%;
+     float: right;
+     margin-top: 35px;
+     margin-right:50px;
+   }
+button{
+padding: 7px;
+margin-top: 35;
+border-radius:10px;
+border-width:thin;
+border-color: orange;
+background-color: rgba(237, 234, 234, 0.124);
+font-size: 16px;
+font-weight: bold;
+} 
+}
+@media screen and (max-width: 419px) {
+    nav li{
+        display: table;
+        height: 100%;
+        float: right;
+        margin-top: 20px;
+        margin-right:10px;
+        font-size: 14px;
+      }
+   button{
+   padding: 6px;
+   margin-top: 20;
+   border-radius:10px;
+   border-width:thin;
+   border-color: orange;
+   background-color: rgba(237, 234, 234, 0.124);
+   font-size: 14px;
+   font-weight: bold;
+   } 
+}
+@media screen and (min-width: 220px) { 
+.logo{
+ margin-top: 10px; /* Optical alignment of the logo */
+ margin-left: 10px; 
+ float: left;
+ width:15px;
+ height:15px;
+    }}
+#nav-background
+{
+width: 100%;
+height:100px;
+background: url("../images/Mergedbar1.png") no-repeat;
+font-weight: bold;
+background-size:cover;
+margin-bottom: 0%;
+padding-bottom: 0%;
+}
+
+header{ 
+padding-top: 5px;
+text-align: center;
+background-image: url("../images/En\ chiffres15.png");
+background-size: cover;
+}
+#h2{
+     margin-top: 5px;
+     margin-left: 340px;
+     margin-bottom: 0px;
+     color:black
+    }
+@media screen and (max-width: 970px){
+    #h2{
+        font-size: 16px;
+   }
+ }  
+ @media screen and (max-width: 864px){ 
+    #h2{
+         margin-top: 5px;
+         margin-left: 180px;
+         margin-bottom: 0px;
+    } 
+}
+#p1{
+    color:blue ;
+    margin-top: 0%;
+}
+ @media screen and (max-width: 692px){
+    #h2{
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+   } 
+   #p1{ font-size: 12px;}
+ }  
+ #h3{
+    color:blue ;
+}   
+ @media screen and (max-width: 543px){
+    #p1{text-align: justify;}
+    #h2{
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        text-align: left;
+   } 
+#h3{
+    font-size: 14px;
+}  
+ }
+@media screen and (min-width: 450px) { 
+.grid-container {
+     display: grid;
+     grid-template-columns: auto auto auto; 
+     padding: 30px;
+     width: auto;
+                 }
+                                  }
+/* Elements de la grille de conseils (responsive)*/
+@media screen and (min-width: 449px) { 
+.grid-item {
+     font-size: 14px;
+     color:blue;
+            }
+        }
