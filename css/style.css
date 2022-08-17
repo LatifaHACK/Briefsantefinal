@@ -1,0 +1,121 @@
+*{
+    list-style: none;
+   text-decoration: none;
+   }
+html {
+     font-family:  'Changa';
+   }
+.nav{
+     height: 100%;
+     float: right;
+     margin-bottom: 0px;
+     }
+body       {
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+           }
+     nav li{
+        display: table;
+        height: 50%;
+        float: right;
+        padding-top: 30px;
+        padding-right: 40px;
+        flex-wrap: wrap;
+           }
+#nav-background{
+        width: 100%;
+        height:100px;
+        background: url("../images/Mergedbar1.png") no-repeat;
+        font-weight: bold;
+        background-size:cover;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+                }
+button{
+padding: 7px;
+border-radius:10px;
+border-width:thin;
+border-color: orange;
+background-color: rgba(237, 234, 234, 0.124);
+font-size: 16px;
+font-weight: bold;
+} 
+.logo{
+display: table;
+ margin-top: 10px; /* Optical alignment of the logo */
+ margin-left: 10px; 
+ float: left;
+ width:15px;
+ height:15px;
+ flex-wrap: wrap;
+    }
+#header{ 
+display: grid;
+text-align: center;
+margin-top: 0px;
+width: 100%;
+background-image: url("../images/En\ chiffres15.png");
+background-size: cover;
+}
+#h3{
+    margin: 0px;
+    color:blue ;
+}  
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    padding: 30px;
+    width: auto;
+    font-size: 14px;
+    color:blue;
+                }
+@media screen and (max-width: 580px) {
+    #header{ 
+        font-size: 12px;
+        }   
+}
+@media screen and (max-width: 500px) { 
+           .grid-container {grid-template-columns: repeat(2,1fr); }
+ } 
+@media screen and (max-width: 440px){
+nav li{
+        padding-top: 30px;
+        float: right;
+    }
+#header{ 
+        font-size: 10px;
+        }   
+button{
+        padding: 4px;
+    } 
+.logo{
+        padding: 0px; 
+        float: left
+    }
+    #h3{font-size: 14px;}
+}
+@media screen and (max-width: 364px){
+nav li{
+        width: 50%;
+        height: 2%;
+        padding: 1px;
+        font-size: 11;
+        float: right;
+      } 
+button{
+        font-size: 11px;
+     } 
+.logo{
+        padding: 0px; 
+        margin-top: -4em;
+        margin-left: 0px;
+        float: left;
+     }
+.grid-container {grid-template-columns: repeat(1,1fr);
+  font-size: 12px; }
+  
+  #h3{font-size: 12px;}
+
+}
